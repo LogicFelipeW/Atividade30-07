@@ -1,0 +1,41 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,100,154,1) 42%);
+    
+}
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h2{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #030028;
+    
+}
+#influentes{
+    color: white;
+}
+ 
+
+.img-pac{
+    width: 500px;
+    box-shadow: 10px 10px 5px rgb(41, 41, 41);
+
+}
+.img-dk{
+    width: 505px;
+    box-shadow: 10px 10px 5px rgb(41, 41, 41);
+
+}
+.img-mario{
+    width: 505px;
+    box-shadow: 10px 10px 5px rgb(41, 41, 41);
+
+}
+
+p{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
