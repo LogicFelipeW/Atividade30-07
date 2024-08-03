@@ -1,23 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200..700&display=swap');
-body{
+
+body {
     font-family: "Oswald", sans-serif;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,100,154,1) 42%);
-    
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 24%, rgba(0, 0, 0, 1) 74%, rgba(167, 167, 167, 1) 100%, rgba(255, 255, 255, 1) 100%);
+
 }
-.lista{
+
+.lista {
     padding: 50px;
 }
-.intro{
+
+.intro {
+    border-radius: 25px;
     font-family: "Mukta", sans-serif;
-    background: rgb(6,16,56);
-background: linear-gradient(90deg, rgba(6,16,56,1) 17%, rgba(6,15,53,1) 26%, rgba(0,0,0,1) 60%, rgba(10,6,115,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(167, 167, 167, 1) 100%, rgba(255, 255, 255, 1) 100%);
     padding: 50px;
     background-color: black;
 }
-.conteudo-padrao{
-    margin-bottom: 15px;
+
+.conteudo-padrao {
+    border-radius: 20px;
+    background-color: black;
+    margin-bottom: 50px;
     padding: 50px;
     flex-direction: column;
     text-align: center;
@@ -26,50 +33,79 @@ background: linear-gradient(90deg, rgba(6,16,56,1) 17%, rgba(6,15,53,1) 26%, rgb
     align-items: center;
     justify-content: center;
     box-shadow: 10px 10px 5px,
-                -10px -10px 5px;
+        -10px -10px 5px;
 }
-h1{
+
+h1 {
     color: white;
     font-weight: bold;
 }
-h2{
+
+h2 {
     font-family: "Oswald", sans-serif;
-    
-    color: #030028;
-    
+
+    color: white;
+
 }
-#influentes{
+
+#influentes {
     color: white;
 }
- 
-
-.img-pac{
+.img-space{
     width: 500px;
     box-shadow: 10px 10px 5px rgb(41, 41, 41);
 
 }
-.img-dk{
+
+
+.img-pac {
+    width: 500px;
+    box-shadow: 10px 10px 5px rgb(41, 41, 41);
+
+}
+
+.img-dk {
     width: 505px;
     box-shadow: 10px 10px 5px rgb(41, 41, 41);
 
 }
-.img-mario{
+
+.img-mario {
     width: 505px;
     box-shadow: 10px 10px 5px rgb(41, 41, 41);
-
 }
 
-p{
+p {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
-footer{
-    
-    color: white;
-    background-color: black;
-}
-a{
+a {
     margin-right: 20px;
     font-weight: bold;
-    color: #030028 ;
+    color: white;
+}
+footer{
+    border-radius: 20px;
+    
+}
+.email{
+    
+    margin: 20px;
+    width: 50px;
+}
+h3{
+    margin: 20px;
+}
+.rodape{
+    width: 100px;
+}
+.github{
+    width: 70px;
+
+}
+#foto{
+    border-radius: 50%;
+    width: 350px;
+    height: 300px ;
+    box-shadow: 5px 5px 5px whitesmoke;
 }
