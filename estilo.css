@@ -3,8 +3,7 @@
 
 body {
     font-family: "Oswald", sans-serif;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 24%, rgba(0, 0, 0, 1) 74%, rgba(167, 167, 167, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    background-color: black;
 
 }
 
@@ -13,15 +12,47 @@ body {
 }
 
 .intro {
-    border-radius: 25px;
     font-family: "Mukta", sans-serif;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(167, 167, 167, 1) 100%, rgba(255, 255, 255, 1) 100%);
     padding: 50px;
+    border-radius: 20px;
+    color: black;
+    
+}
+.lista{
+    background: rgb(7,7,38);
+    background: linear-gradient(90deg, rgba(7,7,38,1) 0%, rgba(59,77,205,1) 100%);
     background-color: black;
+    margin-bottom: 50px;
+    padding: 50px;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px,
+        -10px -10px 5px;
+}
+#intro-pag{
+    background: rgb(7,7,38);
+    background: linear-gradient(90deg, rgba(7,7,38,1) 0%, rgba(59,77,205,1) 100%);
+    border-radius: 20px;
+    background-color: black;
+    margin-bottom: 50px;
+    padding: 50px;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px,
+        -10px -10px 5px;
 }
 
 .conteudo-padrao {
+    background: rgb(7,7,38);
+    background: linear-gradient(90deg, rgba(7,7,38,1) 0%, rgba(59,77,205,1) 100%);
     border-radius: 20px;
     background-color: black;
     margin-bottom: 50px;
@@ -55,18 +86,26 @@ h2{
     text-shadow: 0px 0px 15px red;
 }
 #pac{
-    color: ;
+    color: blue;
+    text-shadow: 0px 0px 15px blue;
+}
+#space{
+    color: yellowgreen;
+    text-shadow: 0px 0px 15px yellowgreen;
+}
+#influentes{
+    color: white;
 }
 
 
 .text{
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: black;
-    margin-bottom: 50px;
-    padding: 50px;
+    margin-bottom: 20px;
+    padding: 40px;
     flex-direction: column;
     text-align: center;
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,6 +147,8 @@ a {
     margin-right: 20px;
     font-weight: bold;
     color: white;
+    text-shadow: 0px 0px 15px whitesmoke;
+    
 }
 footer{
     border-radius: 20px;
